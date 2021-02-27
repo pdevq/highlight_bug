@@ -9,7 +9,7 @@ IFS=$ifs_old
 today=$(date --iso-8601)
 
 echo "Today is: $today"
-echo "some text"
-echo 'some text'
+echo "Today is: $(date --iso-8601)"
+echo $today
 
 ls -lah
