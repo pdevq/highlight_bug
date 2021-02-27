@@ -4,7 +4,7 @@ ifs_old=$IFS
 IFS=$'\n'
 IFS=$ifs_old
 
-# some comment
+# some comment'
 
 today=$(date --iso-8601)
 
